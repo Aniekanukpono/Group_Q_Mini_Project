@@ -76,5 +76,5 @@ user_input = [Company, Product, TypeName, ScreenResolution,Ram,Memory, Gpu, Oper
 
 # shows the price of the device
 if st.button("Click"):
-    text = f"The price is £{round(get_price(user_input)[0],-2):,}"
+    text = f"The price is £{round(get_price(user_input),-2):,}"
     st.write(text)
