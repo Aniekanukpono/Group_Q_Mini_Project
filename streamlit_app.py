@@ -67,12 +67,13 @@ Company = st.selectbox( "Company" ,sorted(list(set(x["Company"].tolist()))))
 Product = st.selectbox( "Product" ,sorted(list(set(x["Product"].tolist()))))
 TypeName = st.selectbox( "Type" ,sorted(list(set(x["TypeName"].tolist()))))
 ScreenResolution = st.selectbox( "Screen Resolution" ,sorted(list(set(x["ScreenResolution"].tolist()))))
+Cpu = st.selectbox( "CPU" ,sorted(list(set(x["Cpu"].tolist()))))
 Ram = st.selectbox( "RAM" ,sorted(list(set(x["Ram"].tolist()))))
 Memory = st.selectbox( "Memory" ,sorted(list(set(x["Memory"].tolist()))))
 Gpu = st.selectbox( "GPU" ,sorted(list(set(x["Gpu"].tolist()))))
 Operating_System = st.selectbox( "Operating_System" ,sorted(list(set(x["Operating_System"].tolist()))))
 
-user_input = [Company, Product, TypeName, ScreenResolution,Ram,Memory, Gpu, Operating_System]
+user_input = [Company, Product, TypeName, ScreenResolution, Cpu, Ram, Memory, Gpu, Operating_System]
 
 # shows the price of the device
 if st.button("Click"):
