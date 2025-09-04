@@ -40,7 +40,7 @@ model.fit(x_train, y_train)
 # Function to predict laptop price
 def get_price(user_input):
 
-   new_data = {new_cols :[user_input[a]] for new_cols, a in zip(x.columns, range(len(user_input)))}
+   new_data = {new_cols :[user_input[a]] for new_cols, a in zip(x.columns, range(len(x.columns)))}
    
    new_df = pd.DataFrame(new_data)
   
