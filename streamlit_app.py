@@ -63,8 +63,8 @@ st.write("Choose the laptop features to know the price")
 
 # Creation of selection box to get user input
 
-Company = st.selectbox( "Company" ,sorted(list(set(x["Products"].tolist()))))
-Product = st.selectbox( "Product" ,sorted(list(set(x["Products"].tolist()))))
+Company = st.selectbox( "Company" ,sorted(list(set(x["Company"].tolist()))))
+Product = st.selectbox( "Product" ,sorted(list(set(x["Product"].tolist()))))
 TypeName = st.selectbox( "Type" ,sorted(list(set(x["TypeName"].tolist()))))
 ScreenResolution = st.selectbox( "Screen Resolution" ,sorted(list(set(x["ScreenResolution"].tolist()))))
 Ram = st.selectbox( "RAM" ,sorted(list(set(x["Ram"].tolist()))))
