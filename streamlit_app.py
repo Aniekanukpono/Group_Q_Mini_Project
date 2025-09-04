@@ -1,3 +1,13 @@
+#Contributors
+#Ekeruke Aniekan Ukpono 23/EG/CO/110
+#Nse Divine Friday 23/EG/CO/103
+#Edet Victor Emmanuel 23/EG/CO/106
+#Ufot Idara-Abasi Ekong 23/EG/CO/112
+#Onyeanula Jeremiah Chukwudi 23/EG/CO/113
+#Ezekiel Queen Emem 23/EG/CO/118
+#Umoh Ekemini Emmanuel 23/EG/CO/123
+#Etimbuk Samuel Edem 23/EG/CO/125
+#Efonema Manuel Ibub 23/EG/CO/130
 import numpy as np
 import pandas as pd
 from sklearn.pipeline import Pipeline
