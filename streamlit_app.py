@@ -1,4 +1,4 @@
-#Contributors
+#Contributors To the Group Q Project
 #Ekeruke Aniekan Ukpono 23/EG/CO/110
 #Nse Divine Friday 23/EG/CO/103
 #Edet Victor Emmanuel 23/EG/CO/106
